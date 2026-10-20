@@ -1,4 +1,6 @@
 *.o
 *.exe
 a.out
-exercises/ex*
+exercises/ex01_hello
+exercises/ex02_types
+
