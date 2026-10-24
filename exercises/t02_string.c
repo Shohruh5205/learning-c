@@ -50,7 +50,7 @@ int is_palindrome(const char *s){
 
 int main(void){
 
-  char matn = "hello";
+  char matn[] = "hello";
   char gap[10];
 
   printf("matn hajmi %zu\n", my_strlen(matn));
@@ -61,14 +61,14 @@ int main(void){
 
   printf("hello/hello %d\n", my_strcmp("hello", "hello"));
   printf("telfon/komputer %d\n", my_strcmp("telfon", "komputer"));
-  pritnf("noutbook/notebook %d\n", my_strcmp("noutbook", "notebook"));
+  printf("noutbook/notebook %d\n", my_strcmp("noutbook", "notebook"));
 
   my_reverse(gap);
 
   printf("%s\n", gap);
 
   printf("level is_palindrome %d\n", is_palindrome("level"));
-  pritnf("hello is_palindrome %d\n", is_palindrome("hello"));
+  printf("hello is_palindrome %d\n", is_palindrome("hello"));
 
 
 
